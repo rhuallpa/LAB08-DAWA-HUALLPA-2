@@ -1,0 +1,22 @@
+<p>listadoarticulos Huallpa Rebeca!</p>
+
+<div style="text-align: center">
+    <br>
+    <br>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <table border="1">
+            <tr>
+                <td>Codigo</td>
+                <td>Descripcion</td>
+                <td>Precio</td>
+            </tr>
+            <tr *ngFor="let prod of datos">
+                <td>{{prod.codigo}}</td>
+                <td>{{prod.descripcion}}</td>
+                <td>{{prod.precio}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
